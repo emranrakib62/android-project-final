@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        >
+        <item
+            android:checkable="true"
+            android:id="@+id/DSE"
+            android:title="DSE"
+            android:icon="@drawable/home"/>
+
+
+
+        <item
+            android:checkable="true"
+            android:id="@+id/CSE"
+            android:title="CSE"
+            android:icon="@drawable/profile"/>
+
+        <item
+            android:checkable="true"
+            android:id="@+id/notification"
+            android:title="notification"
+            android:icon="@drawable/notification"/>
+
+    </group>
+
+
+    <group
+        android:id="@+id/group2"
+        >
+
+
+        <item
+            android:checkable="true"
+            android:id="@+id/Setting"
+            android:title="Setting"
+            android:icon="@drawable/setting"/>
+
+
+
+    </group>
+
+
+
+
+</menu>
